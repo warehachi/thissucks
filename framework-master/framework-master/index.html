@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Edmonton NOW</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,21 +19,25 @@
 <body>
     <div class="container">
         <header class="header">
-            <nav class="navigation">
-                <a href="#" class="membership">Membership</a>
-                <a href="#" class="about-us">About Us</a>
-            </nav>
+            <div class="header-background">
+                <h1 class="edmonton-now">Edmonton NOW</h1>
+                <p class="get-to-know-your-city">GET TO KNOW YOUR CITY</p>
+            </div>
 
-            <h1 class="edmonton-now">Edmonton NOW</h1>
-            <p class="get-to-know-your-city">GET TO KNOW YOUR CITY</p>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="#" class="membership">Membership</a></li>
+                    <li><a href="#" class="about-us">About Us</a></li>
+                </ul>
+            </nav>
         </header>
 
         <main>
             <section class="banner-section">
-                <!-- Banner Image -->
-                <img class="banner-image" src="img/community-header.jpg" alt="Edmonton Community Image" />
-
-                <div class="transparent-veil-background"></div>
+                <div class="banner-image-container">
+                    <img class="banner-image" src="img/community-header.jpg" alt="Edmonton Community Image" />
+                    <div class="transparent-veil-background"></div>
+                </div>
 
                 <div class="banner-content">
                     <h2 class="edmonton-communities">Edmonton Communities</h2>
@@ -41,6 +45,33 @@
                         The community of Edmonton is the largest by population, most economically,
                         ethnically, and demographically diverse community.
                     </p>
+                </div>
+            </section>
+
+            <section class="latest-blog-posts-articles">
+                <div class="section-background">
+                    <h3 class="latest-blog-posts">Latest Blog Posts</h3>
+
+                    <!-- First Blog Article -->
+                    <article class="blog-2-article">
+                        <div class="article-background">
+                            <h4 class="little-free-libraries">Little Free Libraries</h4>
+                            <img class="image" src="img/little-free-libraries.png" alt="Little Free Libraries" />
+                            <p class="take-a-book-leave-a-book">
+                                Take a book, leave a book!<br />
+                                The Edmonton Little Free Library program consists of reused newspaper boxes spread throughout the neighbourhood. Residents are encouraged to drop off their old books and find new ones to read<br/>               
+                                <a href="#" class="find-out-more">FIND OUT MORE...</a>
+                            </p>
+                        </div>
+                        <div class="article-background2"></div>
+                        <img class="image2" src="img/local-business.png" alt="Support Local Business" />
+                        <p class="oliver-is-home-to-many-different-businesses">
+                            Oliver is home to many different businesses. Please see below for a list of our 2022-2023 Institutional Associate Members. These businesses and organizations support our league in a variety of ways, including sponsorship, participation in our events and programs, and community engagement<br/>  
+                            <a href="#" class="read-more">READ MORE...</a>
+                        </p>
+                        <h4 class="support-local-business">Support Local Business!</h4>
+                    </article>
+
                 </div>
             </section>
         </main>

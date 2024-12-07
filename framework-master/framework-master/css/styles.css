@@ -1,4 +1,3 @@
-
 body {
     font-size: 100%;
     font-family: "Open Sans", sans-serif;
@@ -12,23 +11,20 @@ body {
 /* Header Styling */
 .header {
     box-sizing: border-box;
-    position: relative;
-}
-
-.header-background {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background: #254c65;
     border-radius: 25px;
-    width: 959px;
+    width: 100%;
     height: 124px;
-    position: absolute;
-    top: 0;
-    left: 0;
 }
 
 .navigation {
+    display: flex;
+    align-items: center;
     width: 304px;
     height: 25px;
-    position: static;
 }
 
 .membership, .membership-span, .membership-span2, .about-us {
@@ -37,12 +33,8 @@ body {
 }
 
 .membership {
-    text-align: left;
-    position: absolute;
-    left: 752px;
-    top: 48px;
-    width: 157px;
-    height: 25px;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .membership-span {
@@ -55,43 +47,29 @@ body {
 
 .about-us {
     color: #ffffff;
-    text-align: left;
     line-height: 36px;
-    position: absolute;
-    left: 605px;
-    top: 48px;
-    width: 112px;
-    height: 25px;
+    text-decoration: none;
 }
 
 .get-to-know-your-city {
     color: #ffffff;
-    text-align: left;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
     text-transform: uppercase;
-    position: absolute;
-    left: 39px;
-    top: 74px;
-    width: 506px;
 }
 
 .edmonton-now {
     color: #ffffff;
-    text-align: left;
     font-size: 32px;
     line-height: 48px;
     font-weight: 700;
     text-transform: uppercase;
-    position: absolute;
-    left: 39px;
-    top: 31px;
-    width: 506px;
-    height: 37px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    width: 506px;
+    height: 37px;
 }
 
 /* Banner Section */
@@ -148,31 +126,23 @@ body {
     border-radius: 25px;
     width: 960px;
     height: 700px;
-    position: absolute;
-    top: 0;
-    left: 0;
 }
 
 /* Blog Article Layout */
 .blog-2-article, .blog-1-article {
-    width: 906px;
-    position: static;
-}
-
-.article-background, .article-background2 {
-    background: #ffffff;
-    border-radius: 25px;
-    width: 906px;
-    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
 }
 
 .image, .image2 {
     width: 385px;
     height: 208px;
     object-fit: cover;
+    margin-right: 20px;
 }
 
-/* Text Styling */
 .description, .take-a-book-leave-a-book, .oliver-description {
     font-size: 18px;
     line-height: 27px;
@@ -181,10 +151,6 @@ body {
 
 .take-a-book-leave-a-book {
     color: #000000;
-    position: absolute;
-    left: 462px;
-    top: 483px;
-    width: 450px;
 }
 
 .take-a-book-leave-a-book-more {
@@ -194,31 +160,56 @@ body {
 .little-free-libraries, .support-local-business {
     color: #254c65;
     text-align: left;
-    font-family: "Commissioner-Bold", sans-serif; 
+    font-family: "Commissioner-Bold", sans-serif;
     font-size: 22px;
     font-weight: 700;
     text-transform: uppercase;
-    position: absolute;
+    display: block;
     width: 450px;
 }
 
 .little-free-libraries {
-    top: 442px;
+    margin-top: 20px;
 }
 
 .support-local-business {
-    top: 130px;
+    margin-top: 50px;
 }
 
 .latest-blog-posts {
     color: #254c65;
     text-align: left;
-    font-family: "Commissioner-Bold", sans-serif; 
-    font-size: 48px;
+    font-family: "Commissioner-Bold", sans-serif;
+    font-size: 49px;
     font-weight: 700;
     text-transform: uppercase;
-    position: absolute;
-    top: 14px;
-    left: 26px;
+    display: block;
     width: 487px;
+    margin-top: 20px;
+}
+
+/* Image styles */
+.image, .image2 {
+    width: 385px;
+    height: 208px;
+    object-fit: cover;
+}
+
+.latest-blog-posts-articles {
+    display: flex;
+    flex-direction: column;
+}
+
+.article-background, .article-background2 {
+    background: #ffffff;
+    border-radius: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.find-out-more, .read-more {
+    font-weight: 700;
+    color: #111827;
+    text-decoration: none;
 }
