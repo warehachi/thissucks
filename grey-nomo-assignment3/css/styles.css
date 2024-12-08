@@ -1,0 +1,389 @@
+body {
+  font-size: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #254C65;
+  color: white;
+  padding: 10px 32px 10px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 959px;
+  height: 124px;
+  border-radius: 16px;
+  box-sizing: border-box;
+  margin-bottom: 24px;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  font-family: 'Commissioner', sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  margin: 0;
+  color: white;
+}
+
+.title a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.subtitle {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+nav a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+.latest-blog-posts-articles {
+  margin: 40px 0;
+}
+
+.section-background {
+  background-color: #EAEEF0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.latest-blog-posts {
+  font-family: 'Commissioner', sans-serif;
+  color: #254C65;
+  font-size: 48px;
+  margin-bottom: 20px;
+  margin-left: 26px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 31px;
+}
+
+.blog-group {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.blog-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-direction: row;
+}
+
+.blog-item img {
+  width: 385px;
+  height: 208px;
+  border-radius: 5px;
+}
+
+.blog-item h4 {
+  font-family: 'Commissioner', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 22px;
+  color: #254C65;
+  margin-bottom: 10px;
+}
+
+.blog-item p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #111827;
+  margin-bottom: 10px;
+}
+
+.blog-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-direction: row;
+  background-color: #FFFFFF;
+  padding-top: 29px;
+  padding-left: 27px;
+  padding-bottom: 27px;
+  padding-right: 27px;
+  border-radius: 10px;
+}
+
+.blog-item a {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+  text-decoration: none;
+}
+
+.support-local-business-item {
+  flex-direction: row-reverse;
+}
+
+.little-free-libraries-item {
+  flex-direction: row;
+}
+
+.banner-section {
+  font-family: "OpenSans-Bold", sans-serif;
+  height: 295px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+  padding: 0;
+}
+
+.banner-image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.banner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.transparent-veil-background {
+  background: rgba(37, 76, 101, 0.6);
+  border-radius: 25px;
+  position: absolute;
+  left: 11px;
+  top: 54px;
+  width: 859px;
+  height: 208px;
+  bottom: 33px;
+  right: 90px;
+}
+
+.banner-content {
+  position: absolute;
+  left: 40px;
+  top: 72px;
+  bottom: 133px;
+  right: 106px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  z-index: 2;
+}
+
+.edmonton-communities {
+  color: #f6fcff;
+  font-family: "Commissioner-Bold", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.community-gardens-wrapper {
+  margin-left: 48px;
+  margin-right: 47px;
+}
+
+.community-gardens {
+  display: flex;
+  gap: 32px;
+  margin: 24px auto;
+  max-width: 959px;
+}
+
+.community-gardens-image {
+  flex: 0 0 273px;
+}
+
+.community-gardens-image img {
+  width: 273px;
+  height: 363px;
+  object-fit: cover;
+}
+
+.community-gardens-image figcaption {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  margin-top: 8px;
+  color: #4A4A4A;
+}
+
+.community-gardens-content {
+  flex: 1;
+  text-align: left;
+}
+
+.community-gardens-title {
+  font-family: 'Commissioner', sans-serif;
+  color: #254C65;
+  font-size: 48px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.community-gardens-description {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  margin-bottom: 24px;
+  text-align: justify;
+}
+
+.plot-sizes-title {
+  font-family: 'Commissioner', sans-serif;
+  color: #254C65;
+  font-weight: bold;
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.plot-sizes-description {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.plot-sizes table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 24px;
+}
+
+.plot-label {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.plot-value {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.button-container {
+  margin-top: 16px;
+  text-align: left;
+}
+
+.select-garden-btn {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  width: 259.7px;
+  height: 45px;
+  background-color: #254C65;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 25px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.select-garden-btn a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.community-gardens-image figcaption {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+  margin-top: 8px;
+  color: #4A4A4A;
+}
+
+footer {
+  background-color: #254C65;
+  color: white;
+  padding-top: 28px;
+  text-align: center;
+  border-radius: 25px;
+  padding-bottom: 28px;
+}
+
+.footer-title {
+  font-family: 'Commissioner', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.footer-link {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 14px 100px;
+  margin-bottom: 31px;
+  padding-left: 256px;
+  width: 487px;
+}
+
+.footer-link a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.footer-div {
+  height: 3px;
+  width: 50%;
+  border: none;
+  margin-bottom: 34px;
+  background-color: white;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 53px;
+  margin-bottom: 26px;
+}
+
+.social-icons a img {
+  width: 47px;
+  height: 47px;
+}
+
+.copyright {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
